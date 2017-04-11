@@ -1,0 +1,53 @@
+.container {
+    position: relative;
+}
+
+.search {
+    margin: 0 auto;
+    width: 500px;
+    height: 100px;
+}
+
+.text {
+    width: 300px;
+    margin-left: 100px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    border: 2px solid rgb(21, 165, 221);
+    border-radius: 5px;
+    font-size: 15px;
+    padding: 5px;
+}
+
+.btn {
+    border: 2px solid rgb(21, 165, 221);
+    border-radius: 5px;
+    font-size: 15px;
+    padding: 5px;
+    margin-left: 200px;
+}
+
+.btn:hover {
+    background-color: rgb(140, 146, 228);
+}
+
+img {
+    width: 250px;
+    height: 250px;
+    border: 2px solid rgb(21, 165, 221);
+    border-radius: 5px;
+}
+
+li {
+    margin: 10px;
+    float: left;
+}
+
+.images {
+    width: 960px;
+    height: 350px;
+    margin: 0 auto;
+    position: absolute;
+    left: 50%;
+    margin: 70px 0 0 -465px;
+}

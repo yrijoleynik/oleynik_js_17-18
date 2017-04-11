@@ -1,0 +1,174 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+main, menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	vertical-align: baseline;
+}
+
+article, aside, details, figcaption, figure,
+footer, header, hgroup, main, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:hover, a:active {
+    outline: none;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+.container {
+    position: relative;
+}
+
+.search {
+    margin: 0 auto;
+    width: 500px;
+    height: 100px;
+}
+
+.text {
+    width: 300px;
+    margin-left: 100px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    border: 2px solid rgb(21, 165, 221);
+    border-radius: 5px;
+    font-size: 15px;
+    padding: 5px;
+}
+
+.btn {
+    border: 2px solid rgb(21, 165, 221);
+    border-radius: 5px;
+    font-size: 15px;
+    padding: 5px;
+    margin-left: 200px;
+}
+
+.btn:hover {
+    background-color: rgb(140, 146, 228);
+}
+
+img {
+    width: 250px;
+    height: 250px;
+    border: 2px solid rgb(21, 165, 221);
+    border-radius: 5px;
+}
+
+li {
+    margin: 10px;
+    float: left;
+}
+
+.images {
+    width: 960px;
+    height: 350px;
+    margin: 0 auto;
+    position: absolute;
+    left: 50%;
+    margin: 70px 0 0 -465px;
+}
+
+.container {
+    background-color: #E0FFFF;
+    width: 800px;
+    margin: 0 auto;
+    border-radius: 15px;
+    padding-left: 50px;
+    padding-bottom: 20px;
+    position: relative;
+    box-sizing: border-box;
+}
+
+.h1 {
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.question {
+    font-size: 25px;
+    padding: 25px;
+}
+
+label {
+    font-size: 23px;
+    margin-left: 20px;
+}
+
+.ahtung {
+    text-align: center;
+    padding-top: 10px;
+}
+
+.btn {
+    display: block;
+    font-size: 25px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #00CED1;
+    border-radius: 15px;
+    border: 2px solid #B0E0E6;
+}
+
+.btn:hover {
+    background-color: #4682B4;
+    color: white;
+}
+
+.rezult {
+    width: 300px;
+    height: 150px;
+    position: absolute;
+    top: 35%;
+    left: 35%;
+    background-color: #FFFACD;
+    border: 2px solid black;
+    border-radius: 15px;
+    box-sizing: border-box;
+    z-index: 2;
+    display: none;
+}
+
+.ahtung_answer {
+    font-size: 25px;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.btn_answer {
+    padding: 10px;
+}
